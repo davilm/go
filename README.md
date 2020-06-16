@@ -13,7 +13,7 @@ yarn init -y
 
 ### Express
 
-Express include routes bases itself in Operating System
+Express includes routes bases itself in Operating System
 
 ```bash
 yarn add express
