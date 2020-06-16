@@ -27,6 +27,48 @@ Automatically updates the server when it detects any code changes
 yarn add nodemon -D
 ```
 
+#### Start a Server
+
+```bash
+yarn nodemon src/index.js
+```
+### Scripts
+
+
+
+#### Before
+
+```json
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+}
+```
+
+#### After
+
+```json
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+}
+
+```
+
+#### Start a Server
+
+```bash
+yarn dev
+```
+
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
