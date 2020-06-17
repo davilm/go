@@ -32,9 +32,16 @@ yarn add nodemon -D
 ```bash
 yarn nodemon src/index.js
 ```
-### Scripts
 
+### UUIDV4
 
+Generates a unique id
+
+```bash
+yarn add uuidv4
+```
+
+## Scripts
 
 #### Before
 
