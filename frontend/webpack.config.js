@@ -6,8 +6,11 @@ module.exports = {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
     },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'public'),
+    },
     module: {
-        routes: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
